@@ -1,0 +1,162 @@
+/*
+// Stearells (C)
+// github.com/stearells
+// ыЫ :-)
+*/
+
+#vbg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* internal nodes */
+
+#piano {
+    border-radius: 80px 50px 0px 0px;
+}
+
+.name {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.name:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.message {
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.chatting {
+    backdrop-filter: blur(10px);
+}
+
+#new-room-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#play-alone-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#midi-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#sound-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#synth-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#client-settings-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#account-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#room-settings-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#clearchat-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#getcrown-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#vanish-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#lang-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+.relative {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#room {
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+#room:hover {
+    opacity: 90%;
+}
+
+.more {
+    border-radius: 5px;
+}
+
+.expand {
+    border-radius: 100%;
+    opacity: 30%;
+}
+
+.expand:hover {
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 90%;
+}
+
+.number {
+    margin-left: -5px;
+}
+
+#quota {
+    visibility: hidden;
+}
+
+#chat-input {
+    backdrop-filter: blur(5px);
+}
+
+.name {
+    opacity: 70%;
+}
+
+@keyframes fade {
+    from {background-color: rgb(255, 238, 0);}
+    to {background-color: rgb(255, 94, 0);}
+}
+
+.owner {
+    animation-duration: 2s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.cursor {
+    border-radius: 100%;
+    min-width: 25px;
+    opacity: 70%;
+}
