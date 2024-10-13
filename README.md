@@ -12,9 +12,8 @@ $ git clone https://github.com/stearells/mppui.git
 ```
 
 Или скачайте архив:
-```bash
-Code -> Download ZIP
-```
+[MPPUI](https://github.com/Stearells/mppui/archive/refs/heads/master.zip)
+
 ![](content/install_stage1.jpg)
 
 (Во втором случае требуется распаковать архив в любое удобное место)
