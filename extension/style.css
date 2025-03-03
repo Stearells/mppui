@@ -4,6 +4,7 @@
 // ыЫ :-)
 */
 
+/* video background */
 #vbg {
     position: fixed;
     right: 0;
@@ -16,6 +17,7 @@
 
 #piano {
     border-radius: 80px 50px 0px 0px;
+    opacity: 0.8;
 }
 
 .name {
@@ -43,9 +45,24 @@
     border-radius: 10px;
 }
 
+#new-room-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    margin-right: 5px;
+
+}
+
 #play-alone-btn {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+#play-alone-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    margin-right: 5px;
 }
 
 #midi-btn {
@@ -53,9 +70,27 @@
     border-radius: 10px;
 }
 
+#midi-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
 #sound-btn {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+#sound-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
 }
 
 #synth-btn {
@@ -63,9 +98,27 @@
     border-radius: 10px;
 }
 
+#synth-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
 #client-settings-btn {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+#client-settings-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
 }
 
 #account-btn {
@@ -73,9 +126,27 @@
     border-radius: 10px;
 }
 
+#account-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
 #room-settings-btn {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+#room-settings-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
 }
 
 #clearchat-btn {
@@ -83,9 +154,27 @@
     border-radius: 10px;
 }
 
+#clearchat-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
 #getcrown-btn {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+#getcrown-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
 }
 
 #vanish-btn {
@@ -93,38 +182,31 @@
     border-radius: 10px;
 }
 
+#vanish-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
 #lang-btn {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
+#lang-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    transition: margin-right 0.1s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
+    margin-right: 7px;
+    margin-left: 5px;
+}
 
 .relative {
     background: rgba(0, 0, 0, 0.5);
-}
-
-#room {
-    border-radius: 10px;
-    opacity: 50%;
-}
-
-#room:hover {
-    opacity: 90%;
-}
-
-.more {
-    border-radius: 5px;
-}
-
-.expand {
-    border-radius: 100%;
-    opacity: 30%;
-}
-
-.expand:hover {
-    border-radius: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 90%;
 }
 
 .number {
@@ -143,14 +225,17 @@
     opacity: 70%;
 }
 
-@keyframes fade {
-    from {background-color: rgb(255, 238, 0);}
-    to {background-color: rgb(255, 94, 0);}
+@keyframes pulsate {
+  0% { background-color: hsl(360, 100%, 50%); }
+  25% { background-color: hsl(51, 100%, 50%); }
+  50% { background-color: hsl(120, 100%, 50%); }
+  75% { background-color: hsl(240, 100%, 50%); }
+  100% { background-color: hsl(360, 100%, 50%); }
 }
 
 .owner {
-    animation-duration: 2s;
-    animation-name: fade;
+    animation-duration: 3s;
+    animation-name: pulsate;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -159,4 +244,141 @@
     border-radius: 100%;
     min-width: 25px;
     opacity: 70%;
+}
+
+#volume {
+    display: flex;
+    align-items: center;
+}
+
+#volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #242424;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+#volume-slider::-webkit-slider-runnable-track {
+    background-color: #1f1f1f;
+    border-radius: 15px;
+}
+
+/* notification */
+
+.notification-body {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+    padding: 20px !important;
+    width: 300px !important;
+    box-sizing: border-box !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.title {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    margin-bottom: 5px !important;
+}
+
+.text {
+    color: #fff !important;
+}
+
+.x {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    cursor: pointer !important;
+    color: #d15959 !important;
+}
+
+input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="button"]:hover {
+    background-color: #444;
+}
+
+/* wnd */
+.dialog {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.dialog input {
+    background-color: rgba(45, 45, 45, 0.548) !important;
+    border: none !important;
+    border-radius: 6px !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.dialog .submit {
+    background-color: #11111138 !important;
+    border: none !important;
+    border-radius: 6px !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    backdrop-filter: blur(15px) !important;
+}
+
+#room {
+    border-radius: 20px;
+    background-color: #1d1d1d7a !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.more {
+    border-radius: 5px;
+    background-color: #1d1d1dc9 !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.expand {
+    border-radius: 100%;
+}
+
+.info.lobby {
+    background-color: rgba(39, 39, 39, 0.8);
+}
+
+.info.lobby::before {
+    content: '⚙️ ';
+}
+
+.more::-webkit-scrollbar {
+    width: 10px;
+}
+
+.more::-webkit-scrollbar-track {
+    background: #333;
+    border-radius: 5px;
+}
+
+.more::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.more::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
 }

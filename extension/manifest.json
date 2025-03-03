@@ -10,6 +10,9 @@
         "js": ["utils.js", "main.js"],
         "css": ["style.css"],
         "run_at": "document_idle"
+
+
+
     }],
 
     "web_accessible_resources": [
